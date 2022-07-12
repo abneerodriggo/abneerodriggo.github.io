@@ -60,9 +60,8 @@
     letter-spacing: 2 px;
 }
 
-.contact-info { 
-    border-bottom: 2px solid #ffffff; 
-}
+/*.contact-info { 
+    border-bottom: 2px solid #ffffff;}*/
 .left-title {
     color: #eeeeee;
     font-size: 18px;
@@ -116,3 +115,46 @@
     font-size: 16px;
     color: #eeeeee;
 }
+
+.right-title1 {
+    color: #eeeeee;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 14px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 14px;
+    color: #b90000;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 14px;
+    padding-left: 5px;
+    color: #eeeeee;
+}   
