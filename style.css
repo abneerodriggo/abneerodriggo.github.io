@@ -93,14 +93,13 @@ body {
     align-items: center;
     color: #d6dbdfaf;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-info ul li i,
 .references ul li i {
     text-align: center;
-    padding-right: 1rem;
-    font-size: 18px;
+    padding-right: .2rem;
     color: #2E86C1;
 }
 
