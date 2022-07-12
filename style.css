@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +49,8 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 2px solid #ffffff; 
+    border-bottom: 2px solid #ffffff;
+    font-weight: bold; 
 }
 
 .profession {
@@ -58,14 +60,15 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2 px;
+    font-style: italic;
+    font-weight: bold;
 }
 
-/*.contact-info { 
-    border-bottom: 2px solid #ffffff;}*/
 .left-title {
     color: #eeeeee;
     font-size: 18px;
     text-align: center;
+    border-bottom: 2px solid #ffffff;
 }
 
 .contact-info ul {
@@ -102,6 +105,7 @@
     font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #ffffff; 
+    font-weight: bold;
 }
 
 .right-title-list {
@@ -129,6 +133,9 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
+    font-style: italic;
+    font-weight: bold;
+
 }
 
 .exp-company-name,
